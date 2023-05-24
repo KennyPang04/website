@@ -1,17 +1,30 @@
 body {
-    margin: auto;
     background-color: lightblue;
     color: #ffffff;
     font-family: signika-bold;
     font-size: 30px;
     line-height: 1.5;
     max-width: 80%;
-    float: center;
-    margin-right: 24px;
+}
+
+.try {
+    margin-top: 80px;
 }
 
 .links {
     color:greenyellow;
+}
+
+#photo {
+    position: relative;
+    left: 500px;
+    
+}
+
+#start {
+    position: relative;
+    left: 825px;
+    top: -300px;
 }
 
 @font-face {
@@ -22,3 +35,11 @@ body {
     font-family: signika;
     src: url("fonts/Signika-Regular.ttf");
 }
+
+/*
+ .name = class selector
+ #name = ID selector
+ 
+ Group selectors with commas -> .name, #name
+ 
+*/
