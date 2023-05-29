@@ -2,21 +2,26 @@ body {
     margin: 25px;
     border: 0px;
     padding: 0px;
-    background-color: lightskyblue;
+    background-color: white;
     color: #ffffff;
     font-family: signika-bold;
     font-size: 30px;
     line-height: 1.5;
-    max-width: 80%;
     text-align: center;
+}
+
+.top {
+    color: skyblue;
 }
 
 .top img {
     display: inline-block;
+    border-radius: 25px;
 }
 
 .topRight ul {
     text-align: left;
+    color: skyblue;
 }
 
 ul {
@@ -28,7 +33,11 @@ ul {
 }
 
 .links {
+    text-align: right;
+    border-bottom: 1px solid;
+    border-bottom: black;
     margin: 0px;
+    padding-top: 1px;
     color: greenyellow
 }
 
