@@ -2,8 +2,8 @@ body {
     margin: 25px;
     border: 0px;
     padding: 0px;
-    background-color: white;
-    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
     font-family: signika-bold;
     font-size: 30px;
     line-height: 1.5;
@@ -31,6 +31,25 @@ ul {
 .topRight {
     display: inline-block;
 }
+
+h1 {
+    margin: 10px;
+}
+
+p {
+    margin: 0px;
+}
+
+
+
+section box {
+    font-size: 20px;
+    border-style: solid;
+    width: 20%;
+    block-size: 300px;
+    display: inline-block;
+}
+
 
 .links {
     text-align: right;
