@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    margin-left: 256px;
+    margin-right: 256px;
+    margin-bottom: 12.3%;
+}
+
+main img { 
+    height: 40%;
+    width: 40%;
+    padding-right: 64px;
+}
+
+main section {
+    padding-left: 64px;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: block;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20%;
+    }
+    main img { 
+        height: 80%;
+        width: 80%;
+        padding-right: 0px;
+        padding-left: 10%;
+    }
+    main section {
+        padding-left: 0px;
+    }
+    main section h1 {
+        font-size: 36px;
+    }
+}
+
+@media only screen and  (min-width: 1200px) {
+    main {
+        margin-bottom: 22.4%;
+    }
+}
