@@ -5,44 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Kenny's Portfolio</title>
         <link rel="icon" type="image/x-icon" href="documents/favicon-twig.ico">
-        <link rel="stylesheet" href="css/index/styles.css">
-        <link rel="stylesheet" href="css/index/main.css">
-        <link rel="stylesheet" href="css/index/nav.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script>
+            $(function(){
+                $("#navbar").load("navbar.html");
+            });
+        </script>
     </head>
 
     <body>
-        <nav>
-            <section>
-                <ul>
-                    <li>
-                        <a href="index.html"> Home </a>
-                    </li>
-                    <li>
-                        <a href="journey.html"> Journey </a>
-                    </li>
-                    <li> 
-                        <a href="projects.html"> Projects </a>
-                    </li>
-                    <li> 
-                        <a href="documents/resume.pdf" target="_blank"> Resume </a> 
-                    </li>
-                </ul>
-            </section>
-            
-            <section class="images">
-                <ul>
-                    <li> 
-                        <a href="https://github.com/KennyPang04" target="_blank"> 
-                            <img class="logos" src="documents/github-icon.png">
-                        </a> 
-                    </li>
-                    <li> 
-                        <a href="https://www.linkedin.com/in/kenneth-pang-b60823240/" target="_blank"> 
-                            <img class="logos" src="documents/logos-linkedin-icon.png">
-                        </a> 
-                    </li>                        
-                </ul>
-            </section>
-        </nav>
+        <div id="navbar"></div>
         There is nothing here yet!
     </body>
+</html>

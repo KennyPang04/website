@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    justify-content: center;
+}  
+
+main object {
+    width: 800px;
+    height: 798px;
+}
+
+@media only screen and (max-width: 600px) {
+    main object {
+        width: 200px;
+        height: 400px;
+    }
+}
