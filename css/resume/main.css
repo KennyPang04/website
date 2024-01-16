@@ -9,8 +9,14 @@ main object {
 }
 
 @media only screen and (max-width: 600px) {
+    main {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 200px;
+    }
     main object {
-        width: 200px;
-        height: 400px;
+        width: 360px;
+        height: 600px;
     }
 }
