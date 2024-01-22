@@ -1,7 +1,6 @@
 nav {
     display: flex;
     justify-content: space-between;
-
     background-color: rgb(36, 36, 36);
     padding-top: 8px;
     padding-bottom: 8px;
@@ -61,12 +60,7 @@ nav ul li a:hover {
         margin-right: 5px;
         
     }
-    
-    /*
-    .images ul {
-        padding-right: 18px;
-    } 
-    */
+
     .images ul li {
         margin-top: 0px;
         margin-bottom: 0px;

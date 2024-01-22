@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 720px;
+    width: 99%;
+}  
+
+main ul {
+    list-style-type: none;
+    margin: 0px;
+    width: 350px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+main ul li p {
+    margin: 0px;
+    padding-bottom: 16px;
+}
+
+main ul li a {
+    text-decoration: none;
+    color: #639dfb;
+}
