@@ -1,10 +1,11 @@
 main {
     display: flex;
     justify-content: space-between;
-    margin-top: 72px;
+    margin-top: 3%;
+    margin-bottom: 1%;
     margin-left: 256px;
     margin-right: 256px;
-    margin-bottom: 22.4%;
+    height: 720px;
 }
 
 main img { 
@@ -23,15 +24,16 @@ main section h1 {
 @media only screen and (max-width: 600px) {
     main {
         display: block;
-        margin-top: 5%;
+        margin-top: 10%;
         margin-left: 5%;
         margin-right: 5%;
-        margin-bottom: 20%;
+        margin-bottom: 0px;
+        height: 820px;
     }
     main img { 
-        height: 80%;
-        width: 80%;
-        padding-right: 0px;
+        height: 270px;
+        width: 270px;
+        padding-right: 10%;
         padding-left: 10%;
     }
     main section {

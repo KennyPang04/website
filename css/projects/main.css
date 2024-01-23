@@ -24,3 +24,18 @@ main ul li a {
     text-decoration: none;
     color: #639dfb;
 }
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: inline-block;
+        justify-content: center;
+        height: 820px;
+        width: 412px;
+    }
+    main ul {
+        list-style-type: none;
+        margin: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
